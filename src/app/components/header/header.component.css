@@ -1,0 +1,40 @@
+*{
+    background-color: var(--secondary);
+    color: var(--accent);
+}
+
+h1{
+    margin-left: 2.5rem;
+    font-size: 3.3rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+ul li{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.icon{
+    width: 2.2rem;
+    padding-left: 0.6rem;
+}
